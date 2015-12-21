@@ -1,0 +1,1 @@
+[ -f /Users/paweldziok/.travis/travis.sh ] && source /Users/paweldziok/.travis/travis.sh

@@ -1,0 +1,9 @@
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+export PATH="/usr/local/bin:$PATH"
+export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+export PYTHONPATH="/Library/Python/2.7/site-packages:$PYTHONPATH"
+
