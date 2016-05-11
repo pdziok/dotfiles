@@ -1,0 +1,3 @@
+function escape_ticks() {
+	sed -E "s/([^=]+)='(.+?)'/\1=\2/"
+}
