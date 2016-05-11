@@ -1,0 +1,5 @@
+mysql_export() {
+  user=$1;
+  passwd=$2;
+  echo 'show databases' | mysql -u "$1" -p$2 | tail -n 2 | xargs -i sh -c 'mysqldump -u "$1" -p$2 -a -R --flush-privileges --single-transaction --databases {} | gzip > `pwd`/{}.dump.sql'
+}
