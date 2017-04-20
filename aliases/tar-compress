@@ -1,0 +1,1 @@
+alias tar-compress='tar -cvzf'
