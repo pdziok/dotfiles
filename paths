@@ -6,6 +6,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$HOME/.bash/bin
 
 export PYTHONPATH="/Library/Python/2.7/site-packages:$PYTHONPATH"
 export GOPATH="$HOME/projects/go"
